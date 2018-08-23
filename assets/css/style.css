@@ -289,9 +289,9 @@ h1, h2, h3, h4, h5, h6 {
 p.siteSub {
 	font-size: 92%;
 }
-body {
+/* body {
 	background: url(img/body-top.png) repeat-x top left #f6f6f6;
-}
+} */
 ul {
 	list-style-type: none;
 	list-style-image: none;
@@ -313,7 +313,7 @@ a:hover {
 	text-decoration: underline;
 }
 .wrapAll {
-	margin-top: 3%;
+	margin-top: 2%;
 	width: 100%.
 }
 .sidebar {
