@@ -19,28 +19,29 @@ export default () => (
               <a href="#" className="active">Read</a>
             </li>
             <li>
-              <a href="#">View source</a>
-            </li>
-            <li>
               <a href="#">View history</a>
             </li>
           </ul>
         </div>
       </div>
       <div className="article">
-        <h1>Simple Wikipedia Website Template</h1>
+        <h1>Lisbi Abraham</h1>
         <p className="siteSub">
-          From Wikipedia, the free encyclopedia
+          From Wikitionary, the Andela encyclopedia
         </p>
         <p className="roleNote">
           This article is about the writing implement. For other uses, see Pencil (disambiguation).
         </p>
         <div className="articleRight">
-          <div className="articleRightInner">
-            <img src="/assets/img/pencil.jpg" alt="pencil" />
+          <div className="articleRightInner" style={{width:"200px", height:"auto"}}>
+            <img
+              src="https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/lisbi.jpg"
+              alt="andela-lisbi-abraham"
+            />
           </div>
-          This is a blue
-          <a href="#"> pencil</a>
+          <a href="#"> Lisbi Abraham</a>
+          <br />
+          Andela 2015 - 2018
         </div>
         <p>
           Lorem ipsum <strong>dolor sit amet</strong>, nonumes voluptatum mel ea,
