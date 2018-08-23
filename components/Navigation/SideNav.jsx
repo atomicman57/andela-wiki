@@ -12,24 +12,34 @@ export default () => (
       </Link>
   </div>
   <div className="navigation">
+    <h3>Featured Articles</h3>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/places-and-events">
+          Places & Events
+        </Link>
       </li>
       <li>
-        <Link to="/contributions">Contributions</Link>
+        <Link to="/biographies">
+          Biographies
+        </Link>
       </li>
       <li>
-        <Link to="/featured-contents">Featured content</Link>
+        <Link to="/buzz-word">
+          Buzz words
+        </Link>
       </li>
     </ul>
-    <h3>Interaction</h3>
+    <h3>Helpful Links</h3>
     <ul>
       <li>
-        <Link to="/help">Help</Link>
+        <Link to="/motivation">About</Link>
       </li>
       <li>
-        <Link to="/motivation">About</Link>
+        <Link to="https://github.com/atomicman57/andela-wiki">Contributing</Link>
+      </li>
+      <li>
+        <Link to="/how-to-use">How to use</Link>
       </li>
     </ul>
   </div>
