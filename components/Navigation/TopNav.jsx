@@ -9,9 +9,6 @@ export default () => (
       Contributions
     </a>
     <a href="#">
-      Create account
-    </a>
-    <a href="#">
       Log in
     </a>
   </div>
