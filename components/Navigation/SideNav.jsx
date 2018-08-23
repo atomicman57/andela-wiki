@@ -1,34 +1,35 @@
 import React, { Fragment } from 'react';
+import {Link} from 'react-router-dom';
 
 export default () => (
   <div className="sidebar">
     <div className="logo">
-      <a href="/">
-      <img
-        src="https://media.cdn.gradconnection.com/uploads/c4aa0069-1948-440f-bace-0792744eea59-andela_logo.png"
-        alt="andela-wikitionary"
-      />
-    </a>
+      <Link to="/">
+        <img
+          src="https://media.cdn.gradconnection.com/uploads/c4aa0069-1948-440f-bace-0792744eea59-andela_logo.png"
+          alt="andela-wikitionary"
+        />
+      </Link>
   </div>
   <div className="navigation">
     <ul>
       <li>
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="/contributions">Contributions</a>
+        <Link to="/contributions">Contributions</Link>
       </li>
       <li>
-        <a href="/featured-contents">Featured content</a>
+        <Link to="/featured-contents">Featured content</Link>
       </li>
     </ul>
     <h3>Interaction</h3>
     <ul>
       <li>
-        <a href="/help">Help</a>
+        <Link to="/help">Help</Link>
       </li>
       <li>
-        <a href="/motivation">About</a>
+        <Link to="/motivation">About</Link>
       </li>
     </ul>
   </div>

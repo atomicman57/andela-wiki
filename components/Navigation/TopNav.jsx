@@ -1,16 +1,17 @@
 import React, { Fragment } from 'react';
+import {Link} from 'react-router-dom';
 
 const test = false;
 export default () => (
   <div className="headerLinks">
     { test &&
       <Fragment>
-      <a href="/profile" style={{borderRight:"1px solid #999999", paddingRight: "7px"}}>
-      Username
-    </a>
-    <a href="/sandbox" style={{paddingRight:"15px"}}>
+      <Link to="/profile" style={{borderRight:"1px solid #999999", paddingRight: "7px"}}>
+        Username
+      </Link>
+    <Link to="/sandbox" style={{paddingRight:"15px"}}>
       Sandbox
-    </a>
+    </Link>
     </Fragment>
   }
   { !test &&
@@ -18,12 +19,12 @@ export default () => (
     <span className="user">
       Not logged in
     </span>
-    <a href="/login" style={{borderRight:"1px solid #999999", paddingRight: "7px"}}>
+    <Link to="/login" style={{borderRight:"1px solid #999999", paddingRight: "7px"}}>
       Log in
-    </a>
-    <a href="/contributions">
-      Contributions
-    </a>
+    </Link>
+    <Link to="/articles">
+      Articles
+    </Link>
     </Fragment>
   }
   </div>
