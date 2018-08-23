@@ -313,6 +313,7 @@ a:hover {
 	text-decoration: underline;
 }
 .wrapAll {
+	margin-top: 3%;
 	width: 100%.
 }
 .sidebar {
