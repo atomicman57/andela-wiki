@@ -1,18 +1,19 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 export default () => (
   <div className="pagefooter">
     <div className="footerlinks">
-      <a href="/motivation">
+      <Link to="/motivation">
         Motivation
-      </a>
-      <a href="/how-to-use">
+      </Link>
+      <Link to="/how-to-use">
         How to use
-      </a>
-      <a href="/report-bug">
+      </Link>
+      <Link to="/report-bug">
         Report a Bug
-      </a>
-      <a href="https://github.com/atomicman57/andela-wiki">
+      </Link>
+      <a href="https://github.com/atomicman57/andela-wiki" target="blank">
         Contribute
       </a>
     </div>
