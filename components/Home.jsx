@@ -47,10 +47,10 @@ export default () => (
         </p>
         <div className="articleRight">
           <div className="articleRightInner">
-            <img src="img/pencil.jpg" alt="pencil" />
+            <img src="/assets/img/pencil.jpg" alt="pencil" />
           </div>
           This is a blue
-          <a href>pencil</a>
+          <a href="#"> pencil</a>
         </div>
         <p>
           Lorem ipsum <strong>dolor sit amet</strong>, nonumes voluptatum mel ea,
