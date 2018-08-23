@@ -1,56 +1,13 @@
 import React, { Fragment } from 'react';
+import SideNav from './Navigation/SideNav.jsx';
+import TopNav from './Navigation/TopNav.jsx';
+import Footer from './Footer.jsx';
 
 export default () => (
   <div className="wrapAll clearfix">
-    <div className="sidebar">
-      <div className="logo">
-        <a href="/"><img src="/assets/img/logo.png" alt="logo" /></a>
-      </div>
-      <div className="navigation">
-        <ul>
-          <li>
-            <a href="#">Main page</a>
-          </li>
-          <li>
-            <a href="#">Contents</a>
-          </li>
-          <li>
-            <a href="#">Featured content</a>
-          </li>
-        </ul>
-        <h3>Interaction</h3>
-        <ul>
-          <li>
-            <a href="#">Help</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Portal</a>
-          </li>
-        </ul>
-        <h3>Interaction</h3>
-        <ul>
-          <li>
-            <a href="#">Help</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Portal</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <SideNav />
     <div className="mainsection">
-      <div className="headerLinks">
-        <span className="user">Not logged in</span>
-        <a href="#">Talk</a> <a href="#">Contributions</a>
-        <a href="#">Create account</a>
-        <a href="#">Log in</a>
-      </div>
+      <TopNav />
       <div className="tabs clearfix">
         <div className="tabsLeft">
           <ul>
@@ -256,15 +213,7 @@ export default () => (
           <a href="#">Has et partem </a>
         </div>
       </div>
-      <div className="pagefooter">
-        <div className="footerlinks">
-          <a href="#">Privacy policy</a>
-          <a href="#">About</a>
-          <a href="#">Terms and conditions</a>
-          <a href="#">Cookie statement</a>
-          <a href="#">Developers</a>
-        </div>
-      </div>
+      <Footer />
     </div>
   </div>
 );
