@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import TopNav from '../Navigation/TopNav.jsx';
 import SideNav from '../Navigation/SideNav.jsx';
+import Footer from '../Footer.jsx';
 
 export default () => (
   <div className="wrapAll clearfix">
@@ -44,13 +45,14 @@ export default () => (
             <br /><br />
             Actual behavior: <br />
             <textarea rows="4" cols="50">
-              
+
             </textarea>
             <br /><br />
             <input type="submit" value="Submit" />
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   </div>
 );
