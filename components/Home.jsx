@@ -9,16 +9,6 @@ export default () => (
     <div className="mainsection">
       <TopNav />
       <div className="tabs clearfix">
-        <div className="tabsLeft">
-          <ul>
-            <li>
-              <a href="#" className="active">Article</a>
-            </li>
-            <li>
-              <a href="#">Talk</a>
-            </li>
-          </ul>
-        </div>
         <div id="simpleSearch">
           <input type="text" name="searchInput" id="searchInput" placeholder="Search Wikipedia" size={12} />
           <div id="submitSearch" />
