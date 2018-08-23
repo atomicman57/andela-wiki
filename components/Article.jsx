@@ -12,7 +12,7 @@ export default () => (
     <div className="articleRight">
       <div className="articleRightInner" style={{width:"200px", height:"auto"}}>
         <img
-          src="https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/lisbi.jpg"
+          src="assets/img/lisbi.jpg"
           alt="andela-lisbi-abraham"
         />
       </div>
