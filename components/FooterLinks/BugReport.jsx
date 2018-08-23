@@ -25,11 +25,26 @@ export default () => (
               <option>Broken functionality</option>
             </select>
             <br /><br />
-            Tell us how to reproduce this bug: <br />
+            Priority type: <select>
+              <option>
+                Low
+              </option>
+              <option>
+                Medium
+              </option>
+              <option>
+                High
+              </option>
+            </select>
+            <br /><br />
+            Expected behavior: <br />
             <textarea rows="4" cols="50">
-              Browser used,
-              Expected behavior,
-              Actual behavior
+
+            </textarea>
+            <br /><br />
+            Actual behavior: <br />
+            <textarea rows="4" cols="50">
+              
             </textarea>
             <br /><br />
             <input type="submit" value="Submit" />
