@@ -13,25 +13,22 @@ export default () => (
   <div className="navigation">
     <ul>
       <li>
-        <a href="#">Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
-        <a href="#">Contributions</a>
+        <a href="/contributions">Contributions</a>
       </li>
       <li>
-        <a href="#">Featured content</a>
+        <a href="/featured-contents">Featured content</a>
       </li>
     </ul>
     <h3>Interaction</h3>
     <ul>
       <li>
-        <a href="#">Help</a>
+        <a href="/help">Help</a>
       </li>
       <li>
-        <a href="#">About</a>
-      </li>
-      <li>
-        <a href="#">Portal</a>
+        <a href="/motivation">About</a>
       </li>
     </ul>
   </div>
