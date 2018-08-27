@@ -48,6 +48,12 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('style.css'),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+      'process.env.loginGateway': JSON.stringify(process.env.loginGateway),
+      'process.env.baseUrl': JSON.stringify(process.env.baseUrl),
+      'process.env.apiBaseUrl': JSON.stringify(process.env.apiBaseUrl),
+    }),
   ],
   devtool: 'source-map'
 };
